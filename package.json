@@ -1,0 +1,33 @@
+{
+  "name": "ieee-unam-webpage",
+  "version": "1.0.0",
+  "description": "Primera version de la pagina web de la rama estudiantil IEEE UNAM.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEEE-UNAM/WebPage.git"
+  },
+  "keywords": [
+    "IEEE",
+    "UNAM",
+    "Pagina",
+    "Web",
+    "SASS"
+  ],
+  "author": "Aldo Santiago @AyElAldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IEEE-UNAM/WebPage/issues"
+  },
+  "homepage": "https://github.com/IEEE-UNAM/WebPage#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.79.3"
+  }
+}

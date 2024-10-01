@@ -16,6 +16,12 @@ body {
     font-style: normal;
     color: v.$negro;
     font-size: 1.8rem;
+
+    background: linear-gradient(
+        90deg,
+        rgba(117,120,123, 20%),
+        rgba(117,120,123, 40%)
+    );
 }
 p {
     color: v.$negro;
